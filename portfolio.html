@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="porfoliostyle.css">
+    <link rel="icon" type="image/x-icon" href="pics/favorite_24dp_EECECD_FILL1_wght400_GRAD0_opsz24.png">
+    <script type="text/javascript" src="portfolio.js" defer></script>
+    <title> Portfolio </title>
+    
+  </head>
+  <body>
+    <header>
+      <div class="navigation-container">
+        <div> <h3>  Loukil Feriel </h3> </div>
+        <div class="page-links">
+          <a href="#home" class="H-link"> Home </a>
+          <a href="#projects" class="H-link"> Projects </a>
+          <a href="#expertise" class="H-link"> Expertise </a>
+          <a href="#contact" class="H-link"> Contact </a>
+        </div>
+        <button id="theme">
+
+          <img src="pics/dark_mode_24dp_666666_FILL1_wght400_GRAD0_opsz24.svg">
+          <img src="pics/light_mode_24dp_666666_FILL1_wght400_GRAD0_opsz24.svg"> 
+        </button>
+        
+      </div>
+      <div class="introduction-section" id="home">
+        <div>
+          <!--image placement-->
+          <img class="avatar" src="pics/myportrait transparent.png">
+        </div>
+        <div class="intro">
+          <h2>Hello!</h2>
+          <br>
+          <h1> I'm loukil feriel </h1>
+          <br>
+          <p>a computer science student with an intrest for web developping and front-end design.</p>
+          <div class="socials">
+            <a href="https://www.facebook.com/lk.feryel/" target="_blank"><img src="pics/facebook.png"></a>
+            <a href="https://www.instagram.com/iferiiel/" target="_blank"><img src="pics/instagram.png"></a>
+            <a href="https://dz.linkedin.com/in/feryel-loukil-a4171b362?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExbURvZ09xclo2a3JsZUhLRwEeqYS35Zim_ku0TTbakjRi1u0DVGL_zeNAuGfghDuTN4FfQXrEB2e2nJDbe30_aem_6M12-xtmpdvszhAWjPgF5Ah=AT3xGm08fLiSxR0UrodZLS9mXZAxC4BiUAaZWw3xS9peWFfZEsQuj2dyIsUfIp-_jZj0ahyxUsmCvpuarpBdbA2b4Surm67O7XmJznADE_l8EtBgXP24g40pK4lP-JWkZXBDoA" target="_blank"><img src="pics/linkedin.png"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="projects-section" id="projects">
+      <h1 class="prjct-title">Projects</h1>
+      <br>
+      <br>
+      <div class="projects-flex">
+        <div class="project">
+          <a class="project-link" target="_blank" href="https://feriellk.github.io/pinterest-clone/">
+          <div clas="project-img"><img class="project-ss" src="pics/pinterest clone.png"></div>
+          <h2>Pinterest clone </h2>
+          <p> ● Practice for my css skills </p>
+        </a>
+        </div>
+        <div class="project">
+          <a class="project-link" target="_blank" href="https://feriellk.github.io/dark-light-mode/index.html">
+          <div clas="project-img"><img class="project-ss" src="pics/payement clone.png"></div>
+          <h2>Payement page</h2>
+          <p> ● Dark and Light mode form</p>
+        </a>
+        </div>
+        <div class="project">
+          <a class="project-link" target="_blank" href="https://feriellk.github.io/gallery/">
+          <div clas="project-img"><img class="project-ss" src="pics/pictures gallery.png"></div>
+          <h2>Pictures gallery</h2>
+          <p> ● Gallery with flex option</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    <div class="education-section" id="expertise">
+      <h2> Expertise </h2>
+      <br>
+      <div class="educations">
+        <div class="education">
+          <div class="edu-logo"><img  src="pics/html logo.png"></div> <!--icon or image-->
+          <h4>HTML</h4>
+          <h6> Advanced </h6>
+        </div>
+        <div class="education">
+          <div class="edu-logo"><img  src="pics/css logo.png"></div> <!--icon or image-->
+          <h4>CSS</h4>
+          <h6> Advanced</h6>
+        </div>
+        <div class="education">
+          <div class="edu-logo" ><img src="pics/javascript logo.png"></div> <!--icon or image-->
+          <h4>JavaScript</h4>
+          <h6>Beginner</h6>
+        </div>
+        <div class="education">
+          <div class="edu-logo"><img  src="pics/c c++ logo.png"></div> <!--icon or image-->
+          <h4>C/C++</h4>
+          <h6>Intermediate</h6>
+        </div>
+        <div class="education">
+          <div class="edu-logo"><img src="pics/Java Logo.png"></div> <!--icon or image-->
+          <h4>Java</h4>
+          <h6>Intermediate</h6>
+        </div>  
+        <div class="education">
+          <div class="edu-logo"><img src="pics/mysql logo.png"> </div><!--icon or image-->
+          <h4>MySQL</h4>
+          <h6>Intermediate</h6>
+        </div>
+      </div> 
+    </div>
+    <footer id="contact">
+      <h2> Contact me </h2>
+      <br>
+      <form id="contact-form" class="forum">
+        <div class="nameinput">
+        <input class="name" name="firstName" type="text" placeholder="First name" required>
+          <input class="name" name="lastName" type="text" placeholder="Last name" required>
+        </div>
+        
+        <input class="email" name="email" type="email" placeholder="Email address" required>
+        <textarea name="message" placeholder="Send me any inquiries or questions" required></textarea>
+        
+      </form>
+      <div>
+          <button type="submit"> Send message  </button>
+      </div>
+      <p> © 2025 Loukil Feriel</p>
+    </footer>
+
+  </body>
+</html>
